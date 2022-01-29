@@ -28,7 +28,7 @@ def main():
         graph[u].append(v)
         graph[v].append(u)
 
-    print(bfs(graph, 2))
+    print(bfs(graph, 0))
 
 if __name__ == "__main__":
     main()
